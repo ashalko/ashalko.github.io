@@ -1,0 +1,105 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+*{
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
+
+body{
+background-image: url("minsk5.jpg");
+background-size: 100% auto;
+width: 300px;
+background-repeat: no-repeat;
+
+}
+
+.logo{
+	position: absolute;
+	height: 300px;
+	width: 450px;
+	top: 22%;
+	left: 35%;
+  right: 45%;
+}
+.begin {
+background-color: #C0CEE1;
+  color: #FFFF;
+  display: inline-block;
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+padding: 10px 10px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 2px;
+position: absolute;
+top: 57%;
+left: 48%;
+}
+.begin {border-radius: 50%;
+}
+
+
+header {
+	background-color: #FFFF;
+	padding-left:30%;
+  position: center;
+
+
+}
+
+nav{
+	float:left;
+	padding-left:5%;
+    word-spacing: 50px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+    word-spacing: 50px;
+}
+nav li{
+	display: inline-block;
+	margin-left: 80px;
+	padding-top:8px;
+	font-size: 25px;
+	float: left;
+	margin: 30px;
+	height: 100vh;
+  justify-content: space-around;
+
+}
+nav a {
+	color: #FFFF;
+	text-decoration: none;
+	font-family: bromello;
+	font-size: 25 px;
+    word-spacing: 50px;
+}
+nav a:hover {
+	color:#FFFF;
+    word-spacing: 50px;
+}
+
+.footer {
+  text-align: center;
+  height:0px;
+  color:#FFFF;
+  position: fixed;
+  width: 101%;
+  left: 80;
+  bottom: 1;
+}
+footer p{
+  font-family: 'Questrial', sans-serif;
+  font-size: 13px;
+  text-align: center;
+  color: #FFFF;
+  display: flex;
+  justify-content: space-evenly;
+}
